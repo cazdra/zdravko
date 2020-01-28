@@ -1,0 +1,250 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Calibri Light';
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	background-color: #234;
+}
+
+	.wrapper > header {
+		background-color: #234;
+		height: 30px;
+		width: 100%;
+				
+	}
+
+		.wrapper > header > h1 {
+			padding: 20px 0px 15px 0px;
+			font-size: 44pt;
+			color: #fff;
+			text-align: left;
+		}
+			
+
+#main-content-holder {
+	padding: 30px 0px;
+	margin: 0px auto;
+	width: 950px;
+}
+
+	#main-content-holder > header {
+		
+	}
+
+		#main-content-holder > header > nav#main-top-menu {
+			margin-top: -15px;
+			font-size: 26px;
+			display: inline-block;
+			vertical-align: top;
+			width: 100%;
+			text-align: center;
+		}
+
+			#main-content-holder > header > nav#main-top-menu > ul {
+				list-style: none;
+			}
+				
+				#main-content-holder > header > nav#main-top-menu > ul > li {
+					display: inline-block;
+					margin-right: 5px;
+				}
+
+					#main-content-holder > header > nav#main-top-menu > ul > li > a {
+						text-transform: uppercase;
+						display: block;
+						padding: 5px 15px;
+						color: white;
+					}
+
+					#main-content-holder > header > nav#main-top-menu > ul > li.active > a {
+						background-color: red;
+						border-radius: 5px;
+						color: white;
+					}
+
+					#main-content-holder > header > nav#main-top-menu > ul > li:hover > a {
+						background-color: white;
+						border-radius: 5px;
+						color: black;
+					}
+
+		#main-content-holder > header > nav#social-media-menu {
+			width: calc(150% - 8px);
+			display: inline-block;
+			vertical-align: top;
+			text-align: right;
+			margin-top: -30px;
+			margin-bottom: 5px;
+		}
+		
+			#main-content-holder > header > nav#social-media-menu > ul {
+				list-style: none;
+			}
+	
+				#main-content-holder > header > nav#social-media-menu > ul > li {
+					display: inline-block;
+					margin: 0px 5px;
+				}
+	
+					#main-content-holder > header > nav#social-media-menu > ul > li > a {
+						display: inline-block;
+					}
+	
+
+		.promo-banner {
+			border-bottom: 3px;
+			border-radius: 10px;
+			margin: 0px -480px;
+			min-height: 100px;
+			height: 1000px;
+			width: 1905px;
+		}
+		
+			
+			.about {
+				border-left: 1px solid #222;
+				border-top: 1px solid #222;
+				background-color: white;
+				border-radius: 15px;
+				padding: 10px 60px;
+				height: 230px;
+				width: 1300px;
+				font-size: 21pt;
+				margin-left: -190px;
+				margin-bottom: 5px;
+				text-align: left;
+			}
+
+				.about .about-button {
+					border-left: 2px solid #555;
+					border-top: 2px solid #555;
+					text-transform: uppercase;
+					background-color: gray;
+					border-radius: 5px;
+					padding: 3px 3px;
+					margin-right: 630px;
+					font-size: 14pt;
+					color: white;
+					float: right;
+				}
+
+				.about .about-button:hover {
+					border-bottom: 2px solid #222;
+					border-right: 2px solid #222;
+					border-left: none;
+					border-top: none;
+				}
+
+		.widgets {
+			margin: 0px -480px;
+			width: 1905px;
+			height: 300px
+		}
+
+			.widgets .widget {
+				width: calc(500px - 50px);
+				margin-left: 160px;
+				display: inline-block;
+				vertical-align: top;
+			}
+	
+				.widgets .widget > header {
+					border: 0px;
+					margin-bottom: 5px;
+					padding: 5px 0px;
+					text-align: left;
+				}
+
+					.widgets .widget > header > h2 {
+						display: inline-block;
+						margin-left: 10px;
+						margin-top: 2px;
+						font-size: 16pt;
+						color: white;
+					}
+	
+				.widgets .widget p {
+					margin-bottom: 10px;
+					text-align: left;
+					font-size: 10pt;
+					color: white;
+					margin-top: 10px;
+				}
+				
+				.widgets .widget > .widget-main {
+					min-height: 70px;
+				}
+				
+					.widgets .widget > .widget-main > .player {
+					border-radius: 10px;
+				}
+
+					.widgets .widget p > .widget-button {
+						background-color: white;
+						display: inline-block;
+						border-radius: 5px;
+						padding: 5px 15px;
+						color: #234;
+						margin-top: -10px;
+					}
+
+	.wrapper > footer {
+		background-color: black;
+		text-align: center;
+		padding: 30px 0px;
+		font-size: 8pt;
+		color: gold;
+	}
+
+.icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+
+.icon-ball { background-image: url('../img/site/ball.png'); }
+
+.float-left {
+	float: left;
+}
+
+.cleaner {
+	clean: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
